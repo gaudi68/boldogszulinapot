@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+
+body{
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2CE8F1, #0DFF00);
+    overflow: hidden;    
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    user-select: none;
+    text-align: center;    
+}
+.text, .clicks{
+    font-size: 5vh;
+    font-family: 'Belanosima', sans-serif;
+}
+.emoji{
+    margin-top: 0;
+    font-size: 20vh;
+    cursor: pointer;    
+}
+.emoji:active{
+    transform: scale(0.9);
+}
